@@ -1,0 +1,76 @@
+index,provincia,tasa,año
+0,Buenos Aires,7.3,2022
+25,Buenos Aires,8.4,2023
+50,Buenos Aires,7.5,2024
+4,CABA,8.4,2022
+29,CABA,6.4,2023
+54,CABA,5.9,2024
+1,Catamarca,13.1,2022
+26,Catamarca,14.3,2023
+51,Catamarca,15.2,2024
+2,Chaco,12.3,2022
+27,Chaco,13.6,2023
+52,Chaco,9.7,2024
+3,Chubut,10.4,2022
+28,Chubut,8.7,2023
+53,Chubut,10.7,2024
+6,Corrientes,5.8,2022
+31,Corrientes,7.4,2023
+56,Corrientes,7.6,2024
+5,Córdoba,7.1,2022
+30,Córdoba,8.1,2023
+55,Córdoba,10.1,2024
+7,Entre Ríos,18.4,2022
+32,Entre Ríos,18.8,2023
+57,Entre Ríos,19.8,2024
+8,Formosa,14.0,2022
+33,Formosa,13.8,2023
+58,Formosa,16.4,2024
+9,Jujuy,6.9,2022
+34,Jujuy,8.4,2023
+59,Jujuy,10.2,2024
+10,La Pampa,16.6,2022
+35,La Pampa,12.6,2023
+60,La Pampa,13.4,2024
+11,La Rioja,14.0,2022
+36,La Rioja,14.4,2023
+61,La Rioja,15.5,2024
+12,Mendoza,11.7,2022
+37,Mendoza,11.0,2023
+62,Mendoza,12.5,2024
+13,Misiones,8.5,2022
+38,Misiones,6.9,2023
+63,Misiones,6.5,2024
+14,Neuquén,8.5,2022
+39,Neuquén,9.8,2023
+64,Neuquén,9.5,2024
+15,Río Negro,5.9,2022
+40,Río Negro,6.4,2023
+65,Río Negro,5.1,2024
+16,Salta,15.8,2022
+41,Salta,13.7,2023
+66,Salta,13.2,2024
+17,San Juan,10.4,2022
+42,San Juan,10.3,2023
+67,San Juan,12.3,2024
+18,San Luis,11.5,2022
+43,San Luis,16.3,2023
+68,San Luis,17.5,2024
+19,Santa Cruz,12.6,2022
+44,Santa Cruz,10.6,2023
+69,Santa Cruz,10.3,2024
+20,Santa Fe,11.2,2022
+45,Santa Fe,11.4,2023
+70,Santa Fe,13.6,2024
+21,Santiago del Estero,14.1,2022
+46,Santiago del Estero,14.2,2023
+71,Santiago del Estero,11.4,2024
+22,Tierra del Fuego,13.2,2022
+47,Tierra del Fuego,11.7,2023
+72,Tierra del Fuego,10.3,2024
+24,Total País,9.3,2022
+49,Total País,9.8,2023
+74,Total País,9.8,2024
+23,Tucumán,9.8,2022
+48,Tucumán,12.8,2023
+73,Tucumán,12.3,2024
