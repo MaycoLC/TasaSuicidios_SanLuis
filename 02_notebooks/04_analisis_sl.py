@@ -1,11 +1,8 @@
 from pathlib import Path
-
 import pandas as pd
-
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 PROCESADOS_DIR = ROOT_DIR / "01_datos" / "procesados"
-
 
 def cargar_csv(nombre, columnas_requeridas):
     ruta = PROCESADOS_DIR / nombre
@@ -18,7 +15,7 @@ def cargar_csv(nombre, columnas_requeridas):
         )
     return datos
 
-
+# Cargar los datos necesarios para el análisis.
 departamentos = cargar_csv(
     "sl_por_departamento.csv",
     ["departamento", "casos_2017_2022"],
@@ -31,6 +28,7 @@ edad_sexo = cargar_csv(
 departamentos["casos_2017_2022"] = pd.to_numeric(
     departamentos["casos_2017_2022"], errors="raise"
 )
+# Casos por sexo y año:
 edad_sexo["casos"] = pd.to_numeric(edad_sexo["casos"], errors="raise")
 edad_sexo["año"] = pd.to_numeric(edad_sexo["año"], errors="raise")
 
@@ -43,8 +41,12 @@ if (departamentos["casos_2017_2022"] < 0).any() or (edad_sexo["casos"] < 0).any(
 if departamentos["departamento"].duplicated().any():
     raise ValueError("El resumen por departamento contiene departamentos duplicados.")
 
+# Total de casos por departamento 2017-2022.
 total_departamentos = int(departamentos["casos_2017_2022"].sum())
+
+# Total de casos por sexo y edad.
 total_edad_sexo = int(edad_sexo["casos"].sum())
+
 if total_departamentos != total_edad_sexo:
     raise ValueError(
         "Los totales no coinciden entre los archivos de departamentos "
