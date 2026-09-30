@@ -167,7 +167,7 @@ vm_anuales.to_csv('01_datos/procesados/sl_villa_mercedes.csv', index=False, enco
 print(f" -> Total 2017-2022: {vm_anuales['total'].sum()} casos")
 
 # ==================================================
-# Tabla 6 - Lugar del hecho (Gráfico 11 del infrome) 
+# Tabla 6 - Lugar del hecho (Gráfico 11 del informe) 
 # ==================================================
 print("\nConstruyendo: sl_lugar_hecho.csv")
 
