@@ -6,8 +6,6 @@
 **Fuente Provincia:** Dirección de Estadística y Censos de San Luis
 **Etapas completadas:** Python (Pandas/Matplotlib) · Tableau 
 
-\---
-
 ## Contexto y Definiciones
 
 Este proyecto de análisis de datos estudia la tasa de suicidios en Argentina abordando el fenómeno en dos escalas geográficas y temporales distintas. A nivel nacional, se presenta una comparativa de la evolución de las tasas en las 24 provincias (23 + CABA) durante el período 2017–2024. A nivel provincial, el foco se centra en la Provincia de San Luis (que registró la segunda tasa más alta del país), detallando la distribución de casos por departamento, grupo etario y sexo para el período 2017–2022.   
@@ -18,8 +16,6 @@ El objetivo es aportar un diagnóstico cuantitativo riguroso a una problemática
 
 * **Discrepancia de fuentes:** Coexisten los registros de intervenciones policiales (SNIC) y los certificados médicos de defunción (DEIS), con diferencias de hasta un 27%. Este proyecto utiliza el SNIC-SAT por ser la única fuente nacional actualizada hasta 2024.
 
-\---
-
 ## Preguntas que responde este análisis 
 
 El flujo de trabajo estadístico y visual responde a las siguientes interrogantes clave:   
@@ -29,16 +25,12 @@ El flujo de trabajo estadístico y visual responde a las siguientes interrogante
 * ¿Cómo se distribuyen geográficamente los casos dentro de San Luis por departamento?   
 * ¿Qué brechas existen entre varones y mujeres, y qué franjas etarias concentran la mayor cantidad de casos en la provincia? 
 
-\---
-
 ## Hallazgos principales
 
 * **Ranking Nacional 2024:** San Luis registró una tasa de 17,5 suicidios cada 100.000 habitantes, ubicándose como la segunda jurisdicción con mayor incidencia del país, superando ampliamente el promedio nacional (9,8).
 * **Concentración geográfica en San Luis:** La inmensa mayoría de los casos provinciales (2017-2022) se concentran en los departamentos de Juan Martín de Pueyrredón y General Pedernera.
 * **Brecha de sexo y edad:** La distribución demográfica provincial evidencia una disparidad marcada entre géneros (mayor prevalencia en varones) y una concentración de casos en franjas etarias específicas.
 * **Limitación estructural de los datos:** Se identificó un vacío estadístico a nivel departamental desde 2023 en San Luis y una anomalía en los registros de 2025 (por cambios metodológicos en los sistemas de carga en Buenos Aires), obligando a limitar el estudio a series históricas estrictamente comparables.
-
-\---
 
 ## Datos utilizados | 1. IPC - Índice de Precios al Consumidor 
 
@@ -61,8 +53,6 @@ El flujo de trabajo estadístico y visual responde a las siguientes interrogante
 |Frecuencia|Anual|
 |Variable clave|Casos absolutos por departamento, sexo y edad|
 |Cobertura|9 departamentos de San Luis (2017-2022)|
-
-\---
 
 ## Etapa 1 · Python
 
@@ -91,7 +81,6 @@ Implementación de `matplotlib` y constructores de leyendas (`mpatches`) para cr
 |`02_notebooks\05_g4_visualizaciones.py`|Gráfico de Pirámide poblacional (edad y sexo con ejes invertidos).|
 |`02_notebooks\05_g5_visualizaciones.py`|Gráfico de distribución de casos por franja horaria.|
 |`02_notebooks\05_g6_visualizaciones.py`|Gráfico de distribución de casos por lugar de hecho.|
-\---
 
 ## Estructura del repositorio
 
@@ -140,8 +129,6 @@ TasaSuicidios_SanLuis/
 └── README.md
 ```
 
-\---
-
 ### Visualizaciones
 
 |Gráfico|Tipo|Pregunta que responde|
@@ -153,19 +140,15 @@ TasaSuicidios_SanLuis/
 
 Los gráficos pueden ser generados mediante los scripts de Python mencionados o visualizados mediante Tableau Public en mi perfil.
 
-\---
-
 ### Etapa 2 · Tableau
 
 Dashboard interactivo ensamblado bajo el principio de aislamiento de fuentes de datos. Se conectaron los CSV procesados de forma independiente para las vistas nacionales y provinciales, asegurando la integridad metodológica al no cruzar bases con distinto nivel de agregación temporal. Incluye diseño mediante layout containers en formato mosaico y aclaraciones visibles de limitación estadística. Se encuentra publicado en Tableau Public en el siguiente link:   
 
-https://public.tableau.com/views/InflacinySalariosenArgentinaMaycoCorrea/Presentacin?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
-\---
+https://public.tableau.com/app/profile/mayco.luciano.correa/viz/TasadeSuicidios-AnlisisArgentinaySanLuispordepartamentos/Presentacin
 
 ## Herramientas utilizadas
 
-!\[Excel](https://img.shields.io/badge/Microsoft\_Excel-217346?style=flat\&logo=microsoft-excel\&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft\_Excel-217346?style=flat\&logo=microsoft-excel\&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
