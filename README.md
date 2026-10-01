@@ -32,7 +32,7 @@ El flujo de trabajo estadístico y visual responde a las siguientes interrogante
 * **Brecha de sexo y edad:** La distribución demográfica provincial evidencia una disparidad marcada entre géneros (mayor prevalencia en varones) y una concentración de casos en franjas etarias específicas.
 * **Limitación estructural de los datos:** Se identificó un vacío estadístico a nivel departamental desde 2023 en San Luis y una anomalía en los registros de 2025 (por cambios metodológicos en los sistemas de carga en Buenos Aires), obligando a limitar el estudio a series históricas estrictamente comparables.
 
-## Datos utilizados | 1. IPC - Índice de Precios al Consumidor 
+## Datos utilizados | 1. Fuente Nacional (SNIC-SAT)
 
 |Campo|Detalle|
 |-|-|
@@ -43,7 +43,7 @@ El flujo de trabajo estadístico y visual responde a las siguientes interrogante
 |Variable clave|Tasa de suicidios cada 100.000 hab. por provincia|
 |Cobertura|24 jurisdicciones (2017-2024)|
 
-## Datos utilizados | 2. Índice de Salarios 
+## Datos utilizados | 2. Fuente Provincial (San Luis)
 
 |Campo|Detalle|
 |-|-|
