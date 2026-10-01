@@ -102,8 +102,8 @@ TasaSuicidios_SanLuis/
 |       └── tasas_nacionales_largo.csv
 |       └── tasas_nacionales.csv     
 ├── 02_notebooks/
-│   └── 01_limpiar_ipc.py
-│   └── 02_limpiar_ind_salario.py
+│   └── 01_construir_dataset_nacional.py
+│   └── 02_limpiar_san_luis.py
 │   └── 03_analisis_nacional.py
 │   └── 04_analisis_sl.py
 │   └── 05_g1_visualizaciones.py
